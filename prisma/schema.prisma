@@ -8,11 +8,11 @@ datasource db {
 }
 
 model Event {
-  id               String @id @default(uuid())
+  id               String  @id @default(uuid())
   title            String
-  detail           String
-  slug             String @unique
-  maximumAttendees Int    @map("maximum_attendees")
+  details          String?
+  slug             String  @unique
+  maximumAttendees Int?    @map("maximum_attendees")
 
   @@map("events")
 }
