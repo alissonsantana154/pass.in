@@ -16,3 +16,7 @@ Content-Type: application/json
   "name": "Alisson Santana",
   "email": "alisson@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/events/0955c770-476c-440d-aae4-fc89e6675c42
