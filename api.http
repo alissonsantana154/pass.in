@@ -23,8 +23,12 @@ GET http://localhost:3333/events/0955c770-476c-440d-aae4-fc89e6675c42
 
 ###
 
-GET http://localhost:3333/attendees/4/badge
+GET http://localhost:3333/attendees/1/badge
 
 ###
 
-GET http://localhost:3333/attendees/4/check-in
+GET http://localhost:3333/attendees/2/check-in
+
+###
+
+GET http://localhost:3333/events/20658709-2628-43db-b29c-6ef95d56a5ee/attendees?query=alisson
